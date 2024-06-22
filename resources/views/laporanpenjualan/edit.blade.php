@@ -83,7 +83,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="inputsatuan">Satuan</label>
+                    <label for="inputsatuan">Harga</label>
                     <input type="number" class="form-control" id="inputsatuan" placeholder="Masukkan Satuan Barang"
                         name="tSatuan" value="{{ $laporanpenjualan->satuan }}" required>
                 </div><br>

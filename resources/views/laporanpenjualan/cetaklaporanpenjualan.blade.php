@@ -44,7 +44,7 @@
                 <th scope="col">Nota Penjualan</th>
                 <th scope="col">Jenis Barang</th>
                 <th scope="col">Jumlah</th>
-                <th scope="col">Satuan</th>
+                <th scope="col">Harga</th>
             </tr>
         </thead>
         <tbody>

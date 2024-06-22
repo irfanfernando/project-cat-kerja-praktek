@@ -35,7 +35,7 @@
                         <th>Nota Penjualan</th>
                         <th>Jenis Barang</th>
                         <th>Jumlah</th>
-                        <th>Satuan</th>
+                        <th>Harga</th>
                     </tr>
                 </thead>
                 <tbody>
