@@ -197,7 +197,7 @@
                                     <a href="{{ route('laporanpenjualan') }}" class="nav-link"> 
                                         <i class="nav-icon fas fa-edit"></i>
                                         <p>
-                                             Laporan Penjualan
+                                             Penjualan
                                         </p>
                                     </a>
                                 </li>
@@ -309,7 +309,7 @@
                                     <a href="{{ route('tampillaporanpenjualan') }}" class="nav-link"> <i
                                             class="nav-icon fas fa-edit"></i>
                                         <p>
-                                            Laporan Penjualan
+                                            Penjualan
                                         </p>
                                     </a>
                                 </li>
