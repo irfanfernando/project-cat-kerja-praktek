@@ -30,7 +30,7 @@
 
                 <div class="form-group">
                     <label for="inputnamapelanggan">Nama Pelanggan</label>
-                    <input type="text" class="form-control" id="inputnamapelanggan" placeholder="Masukkan Nama Pelanggan"
+                    <input type="text" class="form-control" id="inputnamapelanggan" pattern="[^\d]+" placeholder="Masukkan Nama Pelanggan"
                         name="tNamaPelanggan" value="{{ $pelanggan->nama_pelanggan }}" required>
                 </div>
 
