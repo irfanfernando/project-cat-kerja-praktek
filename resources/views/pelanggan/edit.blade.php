@@ -36,7 +36,7 @@
 
                 <div class="form-group">
                     <label for="inputnotelp">No Telepon</label>
-                    <input type="number" class="form-control" id="inputnotelp" placeholder="Masukkan No Telepon"
+                    <input type="text" class="form-control" id="inputnotelp" pattern="[0-9]+" placeholder="Masukkan No Telepon" minlength="10" maxlength="13"
                         name="tNoTelp" value="{{ $pelanggan->noTelp }}" required>
                 </div>
 
