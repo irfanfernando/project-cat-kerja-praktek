@@ -33,7 +33,7 @@
                         <th>Nama Pelanggan</th>
                         <th>Tanggal</th>
                         <th>Nomor Faktur</th>
-                        <th>Jenis Barang</th>
+                        <th>Nama Barang</th>
                         <th>Jumlah</th>
                         <th>Harga</th>
                     </tr>

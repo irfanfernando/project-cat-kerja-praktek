@@ -75,8 +75,8 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="jenisbarang">Jenis Barang</label>
-                    <input type="text" name="tJenisBarang" id="jenisbarang" placeholder="Masukkan Jenis Barang">
+                    <label for="jenisbarang">Nama Barang</label>
+                    <input type="text" name="tJenisBarang" id="jenisbarang" placeholder="Masukkan Nama Barang">
                 </div>
 
                 <div class="form-group">

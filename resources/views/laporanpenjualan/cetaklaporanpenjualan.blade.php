@@ -42,7 +42,7 @@
                 <th scope="col">Nama Pelanggan</th>
                 <th scope="col">Tanggal</th>
                 <th scope="col">Nomor Faktur</th>
-                <th scope="col">Jenis Barang</th>
+                <th scope="col">Nama Barang</th>
                 <th scope="col">Jumlah</th>
                 <th scope="col">Harga</th>
             </tr>

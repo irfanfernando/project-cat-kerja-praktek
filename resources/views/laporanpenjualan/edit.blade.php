@@ -72,8 +72,8 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="jenisbarang">Jenis Barang</label>
-                    <input type="text" name="tJenisBarang" id="jenisbarang" value="{{ $laporanpenjualan->jenis_barang }}" placeholder="Masukkan Jenis Barang">
+                    <label for="jenisbarang">Nama Barang</label>
+                    <input type="text" name="tJenisBarang" id="jenisbarang" value="{{ $laporanpenjualan->jenis_barang }}" placeholder="Masukkan Nama Barang">
                 </div>
 
                 <div class="form-group">
