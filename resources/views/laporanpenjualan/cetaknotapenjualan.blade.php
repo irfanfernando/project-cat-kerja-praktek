@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nota Penjualan</title>
+    <title>Nomor Faktur</title>
     <style>
         /* CSS untuk styling nota kasir */
         body {
@@ -32,7 +32,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>NOTA PENJUALAN</h1>
+            <h1>NOMOR FAKTUR</h1>
             <h2>CV Manau Jaya Palembang</h2>
         </div><br>
         <table>
@@ -42,7 +42,7 @@
                 <td><b>{{ $notapenjualan->tanggal}}</b></td>
             </tr>
             <tr>
-                <td>Nota Penjualan</td>
+                <td>Nomor Faktur</td>
                 <td>:</td>
                 <td><b>{{ $notapenjualan->nota_penjualan}}</b></td>
             </tr>

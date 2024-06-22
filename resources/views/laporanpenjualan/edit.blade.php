@@ -67,8 +67,8 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="notapenjualan">Nota Penjualan</label>
-                    <input type="text" name="tNotaPenjualan" id="notapenjualan" value="{{ $laporanpenjualan->nota_penjualan }}" placeholder="Masukkan Nota Penjualan">
+                    <label for="notapenjualan">Nomor Faktur</label>
+                    <input type="text" name="tNotaPenjualan" id="notapenjualan" value="{{ $laporanpenjualan->nota_penjualan }}" placeholder="Masukkan Nomor Faktur">
                 </div>
 
                 <div class="form-group">
