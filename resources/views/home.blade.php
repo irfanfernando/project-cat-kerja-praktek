@@ -9,6 +9,10 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
 
+    <?php
+        include_once('..\resources\views\role.php');
+    ?>
+
     <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
 
     <link rel="stylesheet" href="../../dist/css/adminlte.min.css?v=3.2.0">
@@ -191,8 +195,9 @@
 
                         @guest
                         @else
+
                             {{-- Admin --}}
-                            @if (Auth::user()->hasRole(1))
+                            @if (Auth::user()->hasRole(ROLE_ADMIN))
                                 <li class="nav-item">
                                     <a href="{{ route('laporanpenjualan') }}" class="nav-link"> 
                                         <i class="nav-icon fas fa-edit"></i>
@@ -239,7 +244,7 @@
                                 </li>
 
                                 {{-- Gudang --}}
-                            @elseif(Auth::user()->hasRole(2))
+                            @elseif(Auth::user()->hasRole(ROLE_GUDANG))
                                 <li class="nav-item">
                                     <a href="{{ route('pembelian') }}" class="nav-link"> 
                                         <i class="nav-icon fas fa-edit"></i>
@@ -286,8 +291,8 @@
                                 </li> -->
 
                                 {{-- Pimpinan --}}
-                            @elseif(Auth::user()->hasRole(3))
-                                <!-- <li class="nav-item">
+                            @elseif(Auth::user()->hasRole(ROLE_PIMPINAN))
+                                <li class="nav-item">
                                     <a href="{{ route('tampilstok') }}" class="nav-link">
                                         <i class="nav-icon fas fa-tachometer-alt"></i>
                                         <p>
